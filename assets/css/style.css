@@ -130,7 +130,7 @@ h2 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: #ffffff;
 }
 
 #header .logo {
@@ -1049,11 +1049,11 @@ section {
 
 
 /*--------------------------------------------------------------
-# Services
+# Work With Us
 --------------------------------------------------------------*/
 
 
-.services .icon-box {
+.work-with-us .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
@@ -1061,42 +1061,42 @@ section {
   text-align: center;
 }
 
-.services .icon-box .icon {
+.work-with-us .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.services .icon-box .icon i {
-  color: red;
+.work-with-us .icon-box .icon i {
+  color:rgba(205,70,49,1);
   font-size: 50px;
   transition: 0.3s;
 }
 
-.services .icon-box h4 {
+.work-with-us .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.work-with-us .icon-box h4 a {
   color: #37517e;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.work-with-us .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.work-with-us .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
+.work-with-us .icon-box:hover h4 a {
   color: #47b2e4;
 }
 
-#services .btn-get-started {
+#work-with-us .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1111,11 +1111,11 @@ section {
   background: #47b2e4;
 }
 
-#services .btn-get-started:hover {
+#work-with-us .btn-get-started:hover {
   background: #209dd8;
 }
 
-.services #vertical {
+.work-with-us #vertical {
   flex-direction: column;
 }
 
@@ -1334,13 +1334,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# News 02
+# Research
 --------------------------------------------------------------*/
-.news-02 {
+.research {
   background: #fff;
 }
 
-.news-02 .member {
+.research .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1349,32 +1349,32 @@ section {
   transition: 0.5s;
 }
 
-.news-02 .member .pic {
+.research .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.news-02 .member .pic img {
+.research .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.news-02 .member:hover {
+.research .member:hover {
   transform: translateY(-10px);
 }
 
-.news-02 .member .member-info {
+.research .member .member-info {
   padding-left: 30px;
 }
 
-.news-02 .member h4 {
+.research .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #37517e;
 }
 
-.news-02 .member span {
+.research .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -1382,7 +1382,7 @@ section {
   font-weight: 500;
 }
 
-.news-02 .member span::after {
+.research .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -1393,19 +1393,19 @@ section {
   left: 0;
 }
 
-.news-02 .member p {
+.research .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.news-02 .member .social {
+.research .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.news-02 .member .social a {
+.research .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -1416,25 +1416,25 @@ section {
   background: #eff2f8;
 }
 
-.news-02 .member .social a i {
+.research .member .social a i {
   color: #37517e;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.news-02 .member .social a:hover {
+.research .member .social a:hover {
   background: #47b2e4;
 }
 
-.news-02 .member .social a:hover i {
+.research .member .social a:hover i {
   color: #fff;
 }
 
-.news-02 .member .social a+a {
+.research .member .social a+a {
   margin-left: 8px;
 }
 
-#news-02 .btn-get-started {
+#research .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1449,7 +1449,7 @@ section {
 }
 
 
-#news-02 .btn-get-started:hover {
+#research .btn-get-started:hover {
   background: #209dd8;
 }
 
